@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Será a Minha Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importando uma fonte moderna do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Progresso de Leitura no Topo -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Cabeçalho / Capa -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 id="typing-title"></h1>
+            <p class="subtitle">Uma linha do tempo dos meus sonhos, metas e conquistas.</p>
+            <a href="#secao-1" class="btn-scroll">Explorar Meu Futuro ↓</a>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal com as 3 Seções -->
+    <main class="timeline-container">
+
+        <!-- Seção 1: Daqui a 1 ano (2027) -->
+        <section id="secao-1" class="card hidden">
+            <div class="badge">2027 • Daqui a 1 Ano</div>
+            <h2>O Início da Grande Jornada</h2>
+            <p>
+                O ano de 2027 será um divisor de águas na minha história. Será o momento em que vou 
+                <strong>finalizar o Ensino Médio</strong>, encerrando um ciclo importante de aprendizado e amizades. 
+                Logo em seguida, darei o meu primeiro grande passo rumo à minha paixão: 
+                <strong>entrar na faculdade de Medicina Veterinária</strong>. O foco total estará nos estudos, 
+                na adaptação à rotina universitária e na construção da base para a minha carreira cuidando dos animais.
+            </p>
+        </section>
+
+        <!-- Seção 2: Daqui a 5 anos -->
+        <section id="secao-2" class="card hidden">
+            <div class="badge">2031 • Daqui a 5 Anos</div>
+            <h2>Independência e Conquistas</h2>
+            <p>
+                Com muito esforço e dedicação, daqui a 5 anos estarei colhendo os frutos do meu trabalho com a 
+                <strong>minha vida feita</strong>. Já formado e atuando na área, terei aberto a 
+                <strong>minha própria empresa</strong>, realizando o sonho de empreender. Além do sucesso profissional, 
+                terei conquistado a minha independência financeira e material, morando na <strong>minha própria casa</strong> 
+                e dirigindo o <strong>meu próprio carro</strong>.
+            </p>
+        </section>
+
+        <!-- Seção 3: Daqui a 10 anos -->
+        <section id="secao-3" class="card hidden">
+            <div class="badge">2036 • Daqui a 10 Anos</div>
+            <h2>Plenitude e Família</h2>
+            <p>
+                Uma década à frente, olho para trás com orgulho de tudo o que construí. Estarei 
+                <strong>muito bem de vida</strong>, com estabilidade, paz e uma empresa consolidada no mercado. 
+                Mas a maior alegria dessa fase será pessoal: <strong>ter o meu filho</strong>, formar a minha família 
+                e poder oferecer a ele todo o amor, segurança e estrutura que sempre sonhei.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Planejando hoje as conquistas de amanhã • 2026 - 2036</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
